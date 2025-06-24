@@ -44,42 +44,42 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   }
 
-  // Form submission
-  const contactForm = document.querySelector('.contact-form form');
-  if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-      e.preventDefault();
+  // // Form submission
+  // const contactForm = document.querySelector('.contact-form form');
+  // if (contactForm) {
+  //   contactForm.addEventListener('submit', function(e) {
+  //     e.preventDefault();
       
-      // Get form data
-      const formData = new FormData(this);
-      const data = Object.fromEntries(formData);
+  //     // Get form data
+  //     const formData = new FormData(this);
+  //     const data = Object.fromEntries(formData);
       
-      // Simple form validation
-      const name = this.querySelector('input[type="text"]').value;
-      const email = this.querySelector('input[type="email"]').value;
-      const service = this.querySelector('select').value;
-      const message = this.querySelector('textarea').value;
+  //     // Simple form validation
+  //     const name = this.querySelector('input[type="text"]').value;
+  //     const email = this.querySelector('input[type="email"]').value;
+  //     const service = this.querySelector('select').value;
+  //     const message = this.querySelector('textarea').value;
       
-      if (!name || !email || !service || !message) {
-        alert('Please fill in all fields.');
-        return;
-      }
+  //     if (!name || !email || !service || !message) {
+  //       alert('Please fill in all fields.');
+  //       return;
+  //     }
       
-      // Simulate form submission
-      const submitBtn = this.querySelector('button[type="submit"]');
-      const originalText = submitBtn.textContent;
+  //     // Simulate form submission
+  //     const submitBtn = this.querySelector('button[type="submit"]');
+  //     const originalText = submitBtn.textContent;
       
-      submitBtn.textContent = 'Sending...';
-      submitBtn.disabled = true;
+  //     submitBtn.textContent = 'Sending...';
+  //     submitBtn.disabled = true;
       
-      setTimeout(() => {
-        alert('Thank you for your message! We\'ll get back to you soon.');
-        this.reset();
-        submitBtn.textContent = originalText;
-        submitBtn.disabled = false;
-      }, 2000);
-    });
-  }
+  //     setTimeout(() => {
+  //       alert('Thank you for your message! We\'ll get back to you soon.');
+  //       this.reset();
+  //       submitBtn.textContent = originalText;
+  //       submitBtn.disabled = false;
+  //     }, 2000);
+  //   });
+  // }
 
   // Add intersection observer for animations
   const observerOptions = {

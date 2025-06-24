@@ -214,9 +214,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Global functions for demo and trial requests
 function requestDemo() {
-  alert('Thank you for your interest! Our sales team will contact you within 24 hours to schedule a personalized demo. Please email us at hello@steycode.com with your preferred time.');
+  alert('Thank you for your interest! Our sales team will contact you within 24 hours to schedule a personalized demo. Please email us at info@steycode.com with your preferred time.');
 }
 
 function startTrial() {
-  alert('Free trial coming soon! Sign up for our newsletter to be notified when trials become available. Contact hello@steycode.com for early access.');
+  alert('Free trial coming soon! Sign up for our newsletter to be notified when trials become available. Contact info@steycode.com for early access.');
 }
