@@ -21,7 +21,7 @@ require_once 'config/conn.php';
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-logo">
-        <a href="index.html">
+        <a href="index.php">
           <h2>Steycode</h2>
         </a>
       </div>

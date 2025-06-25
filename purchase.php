@@ -31,15 +31,15 @@ if (mysqli_num_rows($getTemplate) > 0) {
   <nav class="navbar">
     <div class="nav-container">
       <div class="nav-logo">
-        <a href="index.html">
+        <a href="index.php">
           <h2>Steycode</h2>
         </a>
       </div>
       <ul class="nav-menu">
-        <li><a href="index.html#home" class="nav-link">Home</a></li>
-        <li><a href="index.html#about" class="nav-link">About</a></li>
-        <li><a href="index.html#templates" class="nav-link">Templates</a></li>
-        <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+        <li><a href="index.php#home" class="nav-link">Home</a></li>
+        <li><a href="index.php#about" class="nav-link">About</a></li>
+        <li><a href="index.php#templates" class="nav-link">Templates</a></li>
+        <li><a href="index.php#contact" class="nav-link">Contact</a></li>
       </ul>
       <div class="hamburger">
         <span></span>
@@ -53,7 +53,7 @@ if (mysqli_num_rows($getTemplate) > 0) {
   <section class="purchase-page">
     <div class="container">
       <div class="breadcrumb">
-        <a href="index.html">Home</a> > <a href="index.html#templates">Templates</a> > <span>Purchase</span>
+        <a href="index.php">Home</a> > <a href="index.php#templates">Templates</a> > <span>Purchase</span>
       </div>
 
       <div class="purchase-container">
@@ -296,8 +296,8 @@ if (mysqli_num_rows($getTemplate) > 0) {
         <div class="footer-section">
           <h4>Company</h4>
           <ul>
-            <li><a href="index.html#about">About Us</a></li>
-            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="index.php#about">About Us</a></li>
+            <li><a href="index.php#contact">Contact</a></li>
             <li><a href="mailto:info@steycode.com">Support</a></li>
           </ul>
         </div>
