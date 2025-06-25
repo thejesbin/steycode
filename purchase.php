@@ -291,6 +291,8 @@ if (mysqli_num_rows($getTemplate) > 0) {
             <li><a href="privacy-policy.html">Privacy Policy</a></li>
             <li><a href="terms-conditions.html">Terms & Conditions</a></li>
             <li><a href="refund-policy.html">Refund Policy</a></li>
+            <li><a href="shipping-policy.html">Shipping Policy</a></li>
+            <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
           </ul>
         </div>
         <div class="footer-section">

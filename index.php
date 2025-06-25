@@ -45,10 +45,10 @@ require_once 'config/conn.php';
     <div class="hero-container">
       <div class="hero-content">
         <h1 class="hero-title">Crafting Digital Excellence</h1>
-        <p class="hero-subtitle">We create innovative software products and premium web templates that power modern businesses worldwide.</p>
+        <p class="hero-subtitle">Purchase ready-to-deploy premium templates for your business or explore our innovative SaaS solutions designed for modern enterprises.</p>
         <div class="hero-buttons">
-          <!-- <a href="#products" class="btn btn-primary">Explore Products</a> -->
-          <a href="#templates" class="btn btn-secondary">Browse Templates</a>
+          <a href="#templates" class="btn btn-primary">Browse Templates</a>
+          <a href="#services" class="btn btn-secondary">Our Services</a>
         </div>
       </div>
       <div class="hero-image">
@@ -80,20 +80,21 @@ require_once 'config/conn.php';
       <div class="about-grid">
         <div class="about-content">
           <h3>Our Mission</h3>
-          <p>We're a passionate team of developers and designers dedicated to creating high-quality software products and web templates. Our mission is to empower businesses and developers with tools that make their work more efficient and impactful.</p>
+          <p>Founded in 2021, Steycode is a passionate team of developers and designers dedicated to creating high-quality software products and web templates. Our mission is to empower businesses and developers with tools that make their work more efficient and impactful.</p>
+          <p>We believe in delivering exceptional quality, innovative solutions, and outstanding customer service to every client we serve. Our team's expertise spans across various technologies to ensure we can meet the diverse needs of our customers.</p>
           <div class="stats">
             <div class="stat">
               <h4>20+</h4>
               <p>Projects Delivered</p>
             </div>
-            <!-- <div class="stat">
-                <h4>50+</h4>
-                <p>Premium Templates</p>
-              </div> -->
             <div class="stat">
               <h4>18+</h4>
               <p>Happy Clients</p>
             </div>
+            <!-- <div class="stat">
+              <h4>5+</h4>
+              <p>Years Experience</p>
+            </div> -->
           </div>
         </div>
         <div class="about-features">
@@ -205,20 +206,30 @@ require_once 'config/conn.php';
               <p>info@steycode.com</p>
             </div>
           </div>
-          <!-- <div class="contact-item">
+          <div class="contact-item">
             <div class="contact-icon">📞</div>
             <div>
               <h4>Phone</h4>
-              <p>+1 (555) 123-4567</p>
+              <p>+91 8301020496</p>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon">📍</div>
             <div>
-              <h4>Location</h4>
-              <p>San Francisco, CA</p>
+              <h4>Registered Address</h4>
+              <p>Thudiyanparambill, Vemom PO</p>
+              <p>Mudramoola, Mananthavady</p>
+              <p>Wayanad, Kerala, 670645</p>
+              <p>India</p>
             </div>
-          </div> -->
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">⏰</div>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Monday - Friday: 9:00 AM - 6:00 PM IST</p>
+            </div>
+          </div>
         </div>
         <div class="contact-form">
           <form method="POST" id="contactForm" novalidate>
@@ -385,6 +396,8 @@ require_once 'config/conn.php';
             <li><a href="privacy-policy.html">Privacy Policy</a></li>
             <li><a href="terms-conditions.html">Terms & Conditions</a></li>
             <li><a href="refund-policy.html">Refund Policy</a></li>
+            <li><a href="shipping-policy.html">Shipping Policy</a></li>
+            <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
           </ul>
         </div>
         <div class="footer-section">
