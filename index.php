@@ -47,7 +47,7 @@ require_once 'config/conn.php';
         <h1 class="hero-title">Crafting Digital Excellence</h1>
         <p class="hero-subtitle">Purchase ready-to-deploy premium templates for your business or explore our innovative SaaS solutions designed for modern enterprises.</p>
         <div class="hero-buttons">
-          <a href="#templates" class="btn btn-primary">Browse Templates</a>
+          <!-- <a href="#templates" class="btn btn-primary">Browse Templates</a> -->
           <a href="#services" class="btn btn-secondary">Our Services</a>
         </div>
       </div>
